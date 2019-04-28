@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/recipesList"
+        android:title="My Recipes"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/ingredientsList"
+        android:title="Ingredients"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/restaurantsList"
+        android:title="List of Restaurants"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/homePage"
+        android:title="Go to Homepage"
+        app:showAsAction="never"/>
+
+</menu>

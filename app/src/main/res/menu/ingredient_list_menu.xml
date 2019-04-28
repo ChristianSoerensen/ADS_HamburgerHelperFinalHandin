@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/newIngredient"
+        android:title="New Ingredient"
+        android:text="New Ingredient"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/removeAll"
+        android:title="Remove All"
+        android:text="Remove All"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/le_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#4286f4"
+        android:elevation="4dp"
+        app:title="Welcome"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <ImageView
+        android:id="@+id/burgers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cheeseburgers_png" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/burgers"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="18dp"
+        android:text="Hamburger Helper"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/burgers"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginBottom="115dp"
+        android:text="We are all about food!!!"
+        android:textSize="35dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipesSource.RecipeWriter"
+    android:orientation="vertical"
+    android:background="#d4e1f7">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/recipesWriter_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#4286f4"
+        android:elevation="4dp"
+        app:title="New Recipe"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="?attr/homeAsUpIndicator" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipe Name:"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/titlePut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="#f7f7ed"
+        android:maxLength="30"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decription:"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+    <EditText
+        android:id="@+id/descriptionPut"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="20dp"
+        android:background="#f7f7ed"
+        android:maxLength="3000"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+         />
+
+    <Button
+        android:id="@+id/addRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Recipe"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>

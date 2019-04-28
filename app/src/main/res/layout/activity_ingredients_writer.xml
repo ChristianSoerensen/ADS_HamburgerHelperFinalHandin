@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IngredientsSource.IngredientsWriter"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ingredientsWriter_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#4286f4"
+        android:elevation="4dp"
+        app:title="New Ingredient"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="?attr/homeAsUpIndicator" />
+
+    <TextView
+        android:id="@+id/titleText_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredient Name:"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/titlePut_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="#f7f7ed"
+        android:maxLength="30"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/descriptionText_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decription:"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+    <EditText
+        android:id="@+id/descriptionPut_in"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="20dp"
+        android:background="#f7f7ed"
+        android:maxLength="3000"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        />
+    <TextView
+        android:id="@+id/priceText_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/pricePut_in"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="#f7f7ed"
+        android:maxLength="30"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/addIngredient_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Ingredient"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"/>
+
+
+</LinearLayout>
